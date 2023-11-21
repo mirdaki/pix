@@ -1,0 +1,14 @@
+[package]
+name = "pix"
+version = "0.1.0"
+edition = "2021"
+authors = ["mirdaki"]
+description = "A useful set of command line tools for manipulating and creating image posts on my blog, https://codecaptured.com."
+
+[dependencies]
+chrono = "0.4.26"
+clap = { version = "4.3.21", features = ["derive"] }
+human_regex = "0.3.0"
+photon-rs = "0.3.2"
+stop-words = "0.8.0"
+tera = "1.19.1"
